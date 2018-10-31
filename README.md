@@ -12,7 +12,11 @@
 ##### 5.我觉得用法还是挺简单的，看下demo吧😂
 
 ### 使用
-
+```
+pod repo update
+rm ~/Library/Caches/CocoaPods/search_index.json  (清除搜索缓存)
+pod 'XXXPlaceholder', '~> 0.0.1'
+```
 1. 参照demo创建占位图
 
  ```
