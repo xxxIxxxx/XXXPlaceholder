@@ -53,7 +53,7 @@
         [collectionView reloadData];
         NSInteger section = [collectionView numberOfSections];
         for (NSInteger i = 0; i< section; i++) {
-            NSInteger row = [collectionView numberOfItemsInSection:section];
+            NSInteger row = [collectionView numberOfItemsInSection:i];
             if (row > 0) {
                 return YES;
             }
